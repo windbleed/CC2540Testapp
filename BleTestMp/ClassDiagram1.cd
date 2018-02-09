@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BleTestMp.Form1">
+    <Position X="2.25" Y="0.5" Width="1.75" />
+    <AssociationLine Name="Test1" Type="BleTestMp.Tester" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="7.126" />
+        <Point X="4.875" Y="7.126" />
+        <Point X="4.875" Y="6.875" />
+        <Point X="5.75" Y="6.875" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="TS1" Type="BleTestMp.TestSystem" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.864" />
+        <Point X="4.875" Y="1.864" />
+        <Point X="4.875" Y="0.736" />
+        <Point X="5.75" Y="0.736" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ADSAAARAACAAABAQAACADABCIEA8IAAAEHAYAQABBIA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Test1" />
+      <Field Name="TS1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BleTestMp.Program" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BleTestMp.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BleTestMp.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BleTestMp.DUT">
+    <Position X="5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIgAAAAAAAAAAAAAQgAoAQCAAEAAAEgAAACAAAAAAA=</HashCode>
+      <FileName>DUT.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="TxApp1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BleTestMp.Instrument">
+    <Position X="6.75" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAiAAAAAAAAAAAAIAJAAAAACAAAAEAAAAAEAAAA=</HashCode>
+      <FileName>Instrument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BleTestMp.Tester">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAgAAAAERAAAAAAAAACAAAAAAQAAAAAAAQg=</HashCode>
+      <FileName>Tester.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Inst1" />
+      <Field Name="Dut1" />
+      <Field Name="TestResult1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BleTestMp.TestSystem" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAQgAAAAAABAICAAQAAAMAAAhSAAAAAAAiAAAAAAQA=</HashCode>
+      <FileName>TestSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BleTestMp.CppDLL">
+    <Position X="11.75" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="BleTestMp.CppDLL.ShowWindowCommands" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CppDLL.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAACAAABKAAkAAQSAgYCAEAAAIAAEAAAAAAoMgABI=</HashCode>
+      <FileName>CppDLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BleTestMp.TestResult">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAABAAQAAACA=</HashCode>
+      <FileName>TestResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BleTestMp.TxApp">
+    <Position X="5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IJCQAAQAABARBAiQAQAEAMAACgEAAC4IRAAAAgAAAQA=</HashCode>
+      <FileName>TxApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
